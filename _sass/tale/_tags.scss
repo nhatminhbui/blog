@@ -1,19 +1,13 @@
 .tags {
   &-header {
     &-title {
-      color: $default-shade;
-      font-family: $sans-serif;
-      font-size: 4rem;
-      margin: 1rem 0;
+      color: black;
+	  font-family: $sans-serif;
+      font-size: 2.4rem;
+	  margin: 1rem 0;
       text-align: center;
     }
 
-    &-line {
-      border-top: 0.4rem solid $default-shade;
-      display: block;
-      margin: 0 auto 3rem;
-      width: 4rem;
-    }
   }
 
   &-clouds {
@@ -55,7 +49,7 @@
     padding: 5px 0;
 
     &-title {
-      color: $default-color;
+      color: black;
       text-decoration: none;
       white-space: nowrap;
       overflow: hidden;
@@ -73,6 +67,8 @@
       color: $default-tint;
       text-align: right;
       white-space: nowrap;
+      font-family: $monospaced;
+      font-size: 14px;
     }
 
     &:hover,
