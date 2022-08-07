@@ -1,7 +1,7 @@
 .container {
   margin: 0 auto;
-  max-width: 800px;
-  width: 80%;
+  max-width: 760px;
+  width: 86%;
 }
 
 main,
@@ -9,31 +9,27 @@ footer,
 .nav-container {
   display: block;
   margin: 0 auto;
-  max-width: 800px;
-  width: 80%;
+  max-width: 760px;
+  width: 86%;
 }
 
 .nav {
-  box-shadow: 0 2px 2px -2px $shadow-color;
   overflow: auto;
 
   &-container {
-    margin: 1rem auto;
+    margin: 2rem auto;
     position: relative;
     text-align: center;
   }
 
   &-title {
-    @include transition(all .2s ease-out);
-    color: $default-color;
+    font-size: 20px;
     display: inline-block;
     margin: 0;
     padding-right: .2rem;
-
-    &:hover,
-    &:focus {
-      opacity: .6;
-    }
+    font-family: $monospaced;
+    font-weight: bold;
+    color: $my-red;
   }
 
   ul {
@@ -47,23 +43,24 @@ footer,
     @include transition(all .2s ease-out);
     color: $default-color;
     display: inline-block;
-    opacity: .6;
     padding: 0 2rem 0 0;
 
     &:last-child {
       padding-right: 0;
     }
 
-    &:hover,
-    &:focus {
-      opacity: 1;
-    }
   }
 
   a {
-    color: $default-color;
+	@include transition(all .2s ease-out);
+    color: $grey-1;
     font-family: $sans-serif;
+    &:hover,
+    &:focus {
+      color: $my-red;
+    }
   }
+  
 }
 
 @media (min-width: 600px) {
@@ -81,7 +78,7 @@ footer,
 }
 
 footer {
-  font-family: $serif-secondary;
+  font-family: $sans-serif;
   padding: 2rem 0;
   text-align: center;
 

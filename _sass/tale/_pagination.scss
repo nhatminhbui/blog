@@ -1,6 +1,6 @@
 .pagination {
   border-top: .5px solid $grey-2;
-  font-family: $serif-secondary;
+  font-family: $sans-serif;
   padding-top: 2rem;
   position: relative;
   text-align: center;
@@ -31,6 +31,7 @@
     &:focus {
       opacity: .6;
       text-decoration: none;
+      color: $my-red;
     }
   }
 
