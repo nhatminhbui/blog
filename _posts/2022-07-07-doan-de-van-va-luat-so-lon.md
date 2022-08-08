@@ -21,3 +21,4 @@ Khả năng chọn-bừa-nhưng-đúng trong ba năm liền là 1/8 * 1/8 * 1/8 
 Đây là một ví dụ của **luật số lớn**. Cho khả năng thực hiện thành công một việc là *P* và ta làm việc đó *N* lần, thì số lần thực hiện thành công xấp xỉ *NP* **nếu *N* đủ lớn**. Ở trên *P* = 1/512 và *N* = 10000. Bằng luật số lớn, chúng ta có thể giải thích được rất nhiều hiện tượng hiếm thấy trong cuộc sống, như trúng vé số. Hay trò cờ bạc, nhà cái chỉ cần xác suất thắng hơn 50% ở mỗi ván, cho dù nhỏ, thì chơi lâu họ chắc chắn là người lãi.
 
 Quay lại chuyện đoán đề. Có thể Kaito Kid sẵn có một lượng người theo dõi nên đã trở thành nhân vật chính của mùa thi này, chứ không phải vì một lý do gì bí hiểm cả. Nếu bảo tất cả các cháu mẫu giáo ở Hà Nội, mỗi cháu bốc ba đề cho ba năm tới, thì khéo chúng ta sẽ có vài nhà tiên tri đại tài đang ngồi vắt vẻo trên... ghế trường tiểu học.
+
