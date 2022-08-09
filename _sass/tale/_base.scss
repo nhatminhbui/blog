@@ -42,6 +42,18 @@ h6 {
   line-height: normal;
 }
 
+ 
+.post h1 { /* hero text */
+	text-align: center;
+	&:before {
+		content: open-quote;
+	}
+	&:after {
+		content: close-quote;
+	}
+}
+
+
 a {
   color: $grey-1;
   text-decoration: none;
